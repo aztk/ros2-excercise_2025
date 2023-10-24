@@ -9,6 +9,7 @@ Windows 10/11 WSL2（Ubuntu 22.04/Ubuntu 20.04）での演習を想定してい�
 curl等のインストール
 ```shell
 sudo apt update && sudo apt install curl gnupg lsb-release
+```
 ROS GPGキーの入手（反応がない場合はネットワークを変更する：埼玉大学内ネットワークでつながらないことがたまにある）
 ```shell
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
@@ -72,7 +73,7 @@ ROS_DISTRO=humble
 
 > export ROS_DOMAIN_ID=<your_domain_id>
 
-your_domain_idは0～65532で選択
+your_domain_idは0～100で選択
 
 your_domain_idが１の場合の例
 ```
