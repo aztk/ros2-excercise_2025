@@ -48,13 +48,13 @@ sudo apt install python3-argcomplete
 ```
 
 ## 環境設定
-[](
+<!-- 
 - colconの設定
 ```shell
 echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc
 echo "export _colcon_cd_root=~/ros2_install" >> ~/.bashrc
 ```
-)
+-->
 - 環境の確認
 ```shell
  printenv | grep -i ROS_
