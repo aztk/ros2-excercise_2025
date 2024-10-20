@@ -1,4 +1,4 @@
-# ROS 2演習 2023
+# ROS 2演習 2024
 
 Windows 10/11 WSL2（Ubuntu 22.04/Ubuntu 20.04）での演習を想定しています。
 動作確認は、Windows 11 WSL2（Ubuntu 22.04）で行いました。
